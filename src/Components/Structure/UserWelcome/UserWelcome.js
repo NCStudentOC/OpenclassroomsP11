@@ -49,7 +49,7 @@ export function UserWelcome() {
     } else {
 
       dispatch(updateUserNameThunk({ token, newUserName })).then((result) => {
-        console.log(result); // Add this line
+        console.log(result);
         if (result.payload) {
 
           EditFormOff();

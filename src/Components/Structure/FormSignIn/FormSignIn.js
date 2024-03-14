@@ -19,7 +19,7 @@ export function FormSignIn() {
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
-  const isFetching = useSelector((state) => state.user.isFetching)
+  const isFetching = useSelector((state) => state.user.isFetching);
 
   const [credentials, setCredentials] = useState({ email: '', password: '' });
 
@@ -68,7 +68,7 @@ export function FormSignIn() {
 
       setTimeout(() => {
         navigate('/User');
-      }, 1000);
+      }, 500);
     } else {
       dispatch(clearState());
       setToast({
