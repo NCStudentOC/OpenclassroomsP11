@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/OpenclassroomsP11/static/css/main.21d26534.css",
+    "main.js": "/OpenclassroomsP11/static/js/main.80500230.js",
+    "static/media/bank-tree.jpeg": "/OpenclassroomsP11/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
+    "index.html": "/OpenclassroomsP11/index.html",
+    "main.21d26534.css.map": "/OpenclassroomsP11/static/css/main.21d26534.css.map",
+    "main.80500230.js.map": "/OpenclassroomsP11/static/js/main.80500230.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21d26534.css",
+    "static/js/main.80500230.js"
+  ]
+}
